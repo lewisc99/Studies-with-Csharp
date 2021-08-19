@@ -9,7 +9,14 @@ namespace teste.Entities
         public string name { get; set; }
         public string email { get; set; }
 
-        public DateTime birthDate { get; set; } 
+        public DateTime birthDate { get; set; }
 
+
+        public Client(string name, string email, DateTime birthdate)
+        {
+            this.name = name;
+            this.email = email;
+            this.birthDate = birthDate;
+        }
     }
 }

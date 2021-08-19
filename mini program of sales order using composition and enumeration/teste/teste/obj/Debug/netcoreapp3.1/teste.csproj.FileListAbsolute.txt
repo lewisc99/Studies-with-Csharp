@@ -11,3 +11,16 @@ C:\Users\Pichau\Desktop\teste\teste\teste\bin\Debug\netcoreapp3.1\teste.pdb
 C:\Users\Pichau\Desktop\teste\teste\teste\obj\Debug\netcoreapp3.1\teste.dll
 C:\Users\Pichau\Desktop\teste\teste\teste\obj\Debug\netcoreapp3.1\teste.pdb
 C:\Users\Pichau\Desktop\teste\teste\teste\obj\Debug\netcoreapp3.1\teste.genruntimeconfig.cache
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.exe
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.deps.json
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.runtimeconfig.json
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.runtimeconfig.dev.json
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.dll
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\bin\Debug\netcoreapp3.1\teste.pdb
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.csprojAssemblyReference.cache
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.AssemblyInfoInputs.cache
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.AssemblyInfo.cs
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.dll
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.pdb
+C:\Users\Pichau\Desktop\studies with C#\mini program of sales order using composition and enumeration\teste\teste\obj\Debug\netcoreapp3.1\teste.genruntimeconfig.cache
