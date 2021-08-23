@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using teste.Entities;
+using teste.Entities.enums;
 
 namespace teste
 {
@@ -21,21 +22,28 @@ namespace teste
             Client client = new Client(name, email, birthDate);
             Console.WriteLine("Enter order data: ");
             Console.Write("Status: ");
-            string status = Console.ReadLine();
+            OrderStatus status = Enum.Parse<OrderStatus>(Console.ReadLine());
+
+            
+            Client cliente = new Client(name, email, birthDate);
+            Order order = new Order(DateTime.Now, status, cliente);
             Console.Write("How many itens to this order? ");
             int n = int.Parse(Console.ReadLine());
             Console.WriteLine(" ");
             for (int i = 0;i < n; i++)
             {
+                Console.WriteLine($"Enter #{i} item data:");
+
                 Console.Write("Product Name: ");
                 string pName = Console.ReadLine();
-                Console.Write("Product Name: ");
+                Console.Write("Product Price: ");
                 double pPrice = double.Parse(Console.ReadLine());
                 Console.Write("Quantity: ");
                 int  quantity = int.Parse(Console.ReadLine());
 
                 Product p = new Product(pName,pPrice);
-                OrderItem OrderQ = new OrderItem(quantity, pPrice);
+                OrderItem OrderQ = new OrderItem(quantity, pPrice,p);
+                order.addItem(OrderQ);
 
                 Console.WriteLine(" ");
             }
@@ -43,6 +51,9 @@ namespace teste
 
 
 
+            Console.WriteLine();
+            Console.WriteLine("ORDER SUMMARY:");
+            Console.WriteLine(order);
 
 
 

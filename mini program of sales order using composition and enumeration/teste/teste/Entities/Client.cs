@@ -6,17 +6,25 @@ namespace teste.Entities
 {
     class Client
     {
-        public string name { get; set; }
-        public string email { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
 
-        public DateTime birthDate { get; set; }
+        public DateTime Birthdate { get; set; }
 
 
-        public Client(string name, string email, DateTime birthdate)
+        public Client(string Name, string Email, DateTime Birthdate)
         {
-            this.name = name;
-            this.email = email;
-            this.birthDate = birthDate;
+            this.Name = Name;
+            this.Email = Email;
+            this.Birthdate = Birthdate;
+        }
+        public override string ToString()
+        {
+            return Name
+                + ", ( "
+                + this.Birthdate.ToString("dd/MM/yyyy")
+                + ") - "
+                + Email;
         }
     }
 }

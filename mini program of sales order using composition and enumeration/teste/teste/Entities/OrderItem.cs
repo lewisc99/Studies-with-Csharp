@@ -6,7 +6,7 @@ namespace teste.Entities
 {
     class OrderItem
     {
-        public int quantity { get; set; }
+        public int Quantity { get; set; }
         public double Price { get; set; }
         public Product Product { get; set; }
 
@@ -17,15 +17,24 @@ namespace teste.Entities
         {
 
         }
-        public OrderItem(int quantity, double Price)
+        public OrderItem(int quantity, double Price,Product Product)
         {
-            this.quantity = quantity;
+            this.Quantity = quantity;
             this.Price = Price;
+            this.Product = Product;
         }
-        public double Subtotal()
+        public double SubTotal()
         {
-
+            return Price * this.Quantity;
         }
-        
+        public override string ToString()
+        {
+            return  ", $"
+                + this.Price.ToString("F2")
+                + ", Quantity: "
+                + this.Quantity
+                + ", Subtotal: $"
+                + SubTotal().ToString("F2");
+        }
     }
 }
