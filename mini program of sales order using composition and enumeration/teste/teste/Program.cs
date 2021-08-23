@@ -4,6 +4,10 @@ using System.Collections.Generic;
 using teste.Entities;
 using teste.Entities.enums;
 
+/* Ler os dados de um pedido com N itens (N fornecido pelo usuário). Depois, mostrar um
+sumário do pedido conforme exemplo, 
+foi usado enumerações e composicação, para melhor navegação e facilidade durante o uso do programa*/
+
 namespace teste
 {
     class Program
